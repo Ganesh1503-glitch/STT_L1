@@ -1,11 +1,14 @@
-"""Number Guessing Game - A simple CLI-based game where the user guesses a number between 1 and 100."""
+"""Number Guessing Game.
+
+A simple CLI-based game where the user guesses a number between 1 and 100.
+"""
 
 import random
 
 def welcome_message():
     """Displays the welcome message and game instructions."""
     print("\nWelcome to the Number Guessing Game!")
-    print("Try to guess the number between 1 and 100.\n")
+    print("guess the number between 1 and 100.\n")
 
 def get_random_number():
     """Returns a random integer between 1 and 100."""
